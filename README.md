@@ -1,41 +1,33 @@
 # Clement Akinsola
 
-### Bioinformatician & Clinical Data Scientist | 🧬 Cancer Genomics | From Epidemiology to Genomics
+### Bioinformatician · Cancer Genomics · NGS Analysis · Medical AI
 
-Nine years in epidemiology and clinical data analysis, now applied to bioinformatics. Building reproducible cancer genomics pipelines.
-
----
-
-## 💡 About Me
-
-I'm a data scientist based in Lagos, Nigeria, with **9 years** of experience in **epidemiology, public health, and clinical data analysis**  now channelled into a focused transition into **bioinformatics and cancer genomics** over the past year.
-
-🔬 My work sits at the intersection of **biology, statistics, and code** from calling somatic variants in breast cancer cell lines to profiling tumor microenvironments at single-cell resolution. Grounded in real-world clinical research, I bring rigorous **study design and epidemiological thinking** to genomics, not just pipelines, but the questions they're built to answer. I'm especially interested in **African genomics equity**: the absence of African cancer genomic databases comparable to TCGA, and the misclassification risk of European-trained classifiers on African tumours.
-
-🎓 I hold a **BSc in Microbiology** with a background in **Epidemiology** am now pursuing an **MSc in Cell Biology & Genetics**, and have **7 peer-reviewed publications**. Since 2018 I've trained **150+ postgraduate medical candidates** in biostatistics and research methodology.
+Research Intern at the **Medical Artificial Intelligence Laboratory (MAI Lab), Lagos** · MSc Cell & Molecular Biology, University of Lagos (2027)
 
 ---
 
-## 🧪 What I Work On
+## 💡 About
 
-- **Cancer genomics pipelines** — somatic variant calling, mutational signature analysis, subtype classification
-- **RNA-seq analysis** — bulk (DESeq2) and single-cell (Scanpy) workflows
-- **Reproducible research** — Docker, Nextflow, cloud compute (AWS)
-- **Clinical biostatistics** — study design, survival analysis, epidemiological modelling
+I'm a bioinformatician working in cancer genomics, with a foundation in **clinical epidemiology and biostatistics**. Since 2016 I've analysed clinical data for investigators — study design, regression and survival modelling, predictive models — contributing to **7 peer-reviewed publications** and training **150+ postgraduate medical candidates** in research methods.
+
+Today I build **reproducible, containerised NGS workflows** across WGS, WES, bulk and single-cell RNA-seq, and evaluate medical AI models on African data. I care about **African genomic data equity**: precision medicine is least precise where human genetic diversity is greatest.
 
 ---
 
-## 🔧 Featured Projects
+## 🔧 Featured projects
 
-| Project | Description | Tech |
+| Project | What it does | Stack |
 |---|---|---|
-| [**somatic-wes-breast-cancer-gatk4**](https://github.com/Ceefour18/somatic-wes-breast-cancer-gatk4) | Somatic WES pipeline for the HCC1143 breast cancer cell line following GATK4 Best Practices; confirmed TP53 hotspot & APOBEC signature | GATK4, SnpEff, Docker |
-| [**tcga-brca-rnaseq**](https://github.com/Ceefour18/tcga-brca-rnaseq) | Bulk RNA-seq pipeline comparing PAM50 Basal-like vs. Luminal A subtypes with survival & enrichment analysis | DESeq2, GO/KEGG/GSEA |
-| [**tp53-cancer-genomics**](https://github.com/Ceefour18/tp53-cancer-genomics) | ClinVar variant processing with hotspot modelling, BLAST analysis & functional domain annotation | Python, BLAST |
+| [**Breast_cancer_WGS**](https://github.com/Ceefour18/Breast_cancer_WGS) | Tumour–normal WGS pipeline on HCC1395, validated against the SEQC2 v1.2 truth set; runtime cut ~3× (48 h → 14 h) · [case study](https://ceefour18.github.io/Ceefourmeweb.github.io/case-study-hcc1395.html) | BWA-MEM, GATK4/Mutect2, SnpEff, AWS |
+| [**somatic-wes-breast-cancer-gatk4**](https://github.com/Ceefour18/somatic-wes-breast-cancer-gatk4) | GATK4 Best Practices WES on HCC1143; recovered clonal TP53 p.Arg248Gln (VAF 98.6%) and an APOBEC signature | GATK4, SnpEff, Docker |
+| [**scRNA_BreastCA**](https://github.com/Ceefour18/scRNA_BreastCA) | Breast cancer tumour microenvironment (GSE176078), 9 patients, 3 subtypes; TNBC fibroblast enrichment, CXCL13+ exhausted T cells | Seurat v5, Harmony, sccomp, Docker |
+| [**tcga-brca-rnaseq**](https://github.com/Ceefour18/tcga-brca-rnaseq) | PAM50 Basal-like vs Luminal A across 752 TCGA tumours; 5,346 DEGs, GSEA, Kaplan–Meier & Cox | DESeq2, clusterProfiler, survival |
+| [**brats-africa-3dunet-segmentation**](https://github.com/Ceefour18/brats-africa-3dunet-segmentation) | 3D U-Net glioma segmentation on BraTS-Africa MRI, Dice/IoU/HD95 · [live demo](https://brats-africa-3dunet.streamlit.app) | 3D U-Net, Streamlit |
+| [**tp53-cancer-genomics**](https://github.com/Ceefour18/tp53-cancer-genomics) | 2,319 ClinVar variants (335 pathogenic), hotspot modelling, BLAST and domain annotation | Python, Biopython, R |
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tools
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
@@ -44,27 +36,18 @@ I'm a data scientist based in Lagos, Nigeria, with **9 years** of experience in 
 ![Nextflow](https://img.shields.io/badge/Nextflow-0DC09D?style=flat&logo=nextflow&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-**Bioinformatics:** GATK4 · Scanpy · DESeq2 · SnpEff · BLAST · Nextflow
-**Data & Stats:** pandas · NumPy · survival analysis · SPSS
-
----
-
-## 📊 GitHub Stats
-
-![Clement's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ceefour18&show_icons=true&theme=default&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ceefour18&layout=compact&theme=default)
+**NGS & variants:** GATK4/Mutect2 · BWA-MEM · SAMtools · bedtools · SnpEff · FastQC
+**Transcriptomics:** DESeq2 · Seurat v5 · Harmony · Scanpy · clusterProfiler/GSEA · spatial (in progress)
+**Workflows:** Nextflow/nf-core · Docker · AWS EC2 · HPC
+**Stats & clinical:** survival analysis · regression modelling · GWAS QC · Stata · SPSS · REDCap
 
 ---
 
-## 🌍 Let's Connect
+## 🌍 Connect
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ceefour18.github.io-blue?style=flat)](https://ceefour18.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Clement_Akinsola-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/clement-akinsola)
+[![Portfolio](https://img.shields.io/badge/Portfolio_&_CV-ceefour18.github.io-2f6b66?style=flat)](https://ceefour18.github.io/Ceefourmeweb.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Clement_Akinsola-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/clement-akinsola/)
 [![Email](https://img.shields.io/badge/Email-ceefourme@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ceefourme@gmail.com)
 
----
-
-*Open to bioinformatics roles and research collaborations in cancer genomics.*
+*Open to bioinformatics and computational biology roles and research collaborations in cancer genomics.*

@@ -18,12 +18,13 @@ Today I build **reproducible, containerised NGS workflows** across WGS, WES, bul
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**Breast_cancer_WGS**](https://github.com/Ceefour18/Breast_cancer_WGS) | Tumour–normal WGS pipeline on HCC1395, validated against the SEQC2 v1.2 truth set; runtime cut ~3× (48 h → 14 h) · [case study](https://ceefour18.github.io/Ceefourmeweb.github.io/case-study-hcc1395.html) | BWA-MEM, GATK4/Mutect2, SnpEff, AWS |
-| [**somatic-wes-breast-cancer-gatk4**](https://github.com/Ceefour18/somatic-wes-breast-cancer-gatk4) | GATK4 Best Practices WES on HCC1143; recovered clonal TP53 p.Arg248Gln (VAF 98.6%) and an APOBEC signature | GATK4, SnpEff, Docker |
+| [**breast-cancer-macrophage-scrnaseq**](https://github.com/Ceefour18/breast-cancer-macrophage-scrnaseq) | Macrophage states across ER+/HER2+/TNBC in two independent cohorts (GSE176078, GSE161529; 52 patients, ~17k macrophages); IFN activation tracks T-cell infiltration (pooled ρ = 0.64) independent of subtype · patient-level stats, validation & pooled analysis | Scanpy, Harmony, PyDESeq2, LIANA, Nextflow, SLURM |
 | [**scRNA_BreastCA**](https://github.com/Ceefour18/scRNA_BreastCA) | Breast cancer tumour microenvironment (GSE176078), 9 patients, 3 subtypes; TNBC fibroblast enrichment, CXCL13+ exhausted T cells | Seurat v5, Harmony, sccomp, Docker |
 | [**tcga-brca-rnaseq**](https://github.com/Ceefour18/tcga-brca-rnaseq) | PAM50 Basal-like vs Luminal A across 752 TCGA tumours; 5,346 DEGs, GSEA, Kaplan–Meier & Cox | DESeq2, clusterProfiler, survival |
-| [**brats-africa-3dunet-segmentation**](https://github.com/Ceefour18/brats-africa-3dunet-segmentation) | 3D U-Net glioma segmentation on BraTS-Africa MRI, Dice/IoU/HD95 · [live demo](https://brats-africa-3dunet.streamlit.app) | 3D U-Net, Streamlit |
 | [**tp53-cancer-genomics**](https://github.com/Ceefour18/tp53-cancer-genomics) | 2,319 ClinVar variants (335 pathogenic), hotspot modelling, BLAST and domain annotation | Python, Biopython, R |
+| [**Breast_cancer_WGS**](https://github.com/Ceefour18/Breast_cancer_WGS) | Tumour–normal WGS pipeline on HCC1395, validated against the SEQC2 v1.2 truth set; runtime cut ~3× (48 h → 14 h) · [case study](https://ceefour18.github.io/Ceefourmeweb.github.io/case-study-hcc1395.html) | BWA-MEM, GATK4/Mutect2, SnpEff, AWS |
+| [**somatic-wes-breast-cancer-gatk4**](https://github.com/Ceefour18/somatic-wes-breast-cancer-gatk4) | GATK4 Best Practices WES on HCC1143; recovered clonal TP53 p.Arg248Gln (VAF 98.6%) and an APOBEC signature | GATK4, SnpEff, Docker |
+| [**brats-africa-3dunet-segmentation**](https://github.com/Ceefour18/brats-africa-3dunet-segmentation) | 3D U-Net glioma segmentation on BraTS-Africa MRI, Dice/IoU/HD95 · [live demo](https://brats-africa-3dunet.streamlit.app) | 3D U-Net, Streamlit |
 
 ---
 
@@ -37,10 +38,10 @@ Today I build **reproducible, containerised NGS workflows** across WGS, WES, bul
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
-**NGS & variants:** GATK4/Mutect2 · BWA-MEM · SAMtools · bedtools · SnpEff · FastQC
-**Transcriptomics:** DESeq2 · Seurat v5 · Harmony · Scanpy · clusterProfiler/GSEA · spatial (in progress)
-**Workflows:** Nextflow/nf-core · Docker · AWS EC2 · HPC
-**Stats & clinical:** survival analysis · regression modelling · GWAS QC · Stata · SPSS · REDCap
+- **NGS & variants:** GATK4/Mutect2 · BWA-MEM · SAMtools · bedtools · SnpEff · FastQC
+- **Transcriptomics:** DESeq2/PyDESeq2 · Seurat v5 · Scanpy · Harmony · LIANA · clusterProfiler/GSEA · spatial (in progress)
+- **Workflows:** Nextflow/nf-core · Docker · AWS EC2 · HPC (SLURM)
+- **Stats & clinical:** survival analysis · regression modelling · GWAS QC · Stata · SPSS · REDCap
 
 ---
 

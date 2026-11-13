@@ -2,15 +2,15 @@
 
 ### Bioinformatician · Cancer Genomics · NGS Analysis · Medical AI
 
-Research Intern at the **Medical Artificial Intelligence Laboratory (MAI Lab), Lagos** · MSc Cell & Molecular Biology, University of Lagos (2027)
+**Medical Artificial Intelligence Laboratory (MAI Lab), Lagos** · MSc Cell & Molecular Biology, University of Lagos (2027) · MPH coursework (Epidemiology option), University of Lagos
 
 ---
 
 ## 💡 About
 
-I'm a bioinformatician working in cancer genomics, with a foundation in **clinical epidemiology and biostatistics**. Since 2016 I've analysed clinical data for investigators — study design, regression and survival modelling, predictive models — contributing to **7 peer-reviewed publications** and training **150+ postgraduate medical candidates** in research methods.
+I'm a bioinformatician working in cancer genomics, with a foundation in **clinical epidemiology and biostatistics**. I have analysed clinical data for investigators, covering study design, regression and survival modelling, and predictive models. This work has contributed to **7 peer-reviewed publications**, and I have trained **150+ postgraduate medical candidates** in research methods.
 
-Today I build **reproducible, containerised NGS workflows** across WGS, WES, bulk and single-cell RNA-seq, and evaluate medical AI models on African data. I care about **African genomic data equity**: precision medicine is least precise where human genetic diversity is greatest.
+Today I build **reproducible, containerised NGS workflows** across WGS, WES, bulk and single-cell RNA-seq, I am expanding into **spatial transcriptomics**, and I evaluate medical AI models on African data. My training in microbiology and cell and molecular biology means I understand the **wet lab** side: how these data are produced at the bench, from sample handling and library preparation to sequencing, and where technical artefacts can enter. I care about **African genomic data equity**: precision medicine is least precise where human genetic diversity is greatest.
 
 ---
 
@@ -38,10 +38,15 @@ Today I build **reproducible, containerised NGS workflows** across WGS, WES, bul
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
-- **NGS & variants:** GATK4/Mutect2 · BWA-MEM · SAMtools · bedtools · SnpEff · FastQC
-- **Transcriptomics:** DESeq2/PyDESeq2 · Seurat v5 · Scanpy · Harmony · LIANA · clusterProfiler/GSEA · spatial (in progress)
-- **Workflows:** Nextflow/nf-core · Docker · AWS EC2 · HPC (SLURM)
-- **Stats & clinical:** survival analysis · regression modelling · GWAS QC · Stata · SPSS · REDCap
+**NGS & variants:** GATK4/Mutect2 · BWA-MEM · SAMtools · bedtools · SnpEff · FastQC
+
+**Transcriptomics:** DESeq2/PyDESeq2 · Seurat v5 · Scanpy · Harmony · LIANA · clusterProfiler/GSEA
+
+**Spatial transcriptomics (in progress):** 10x Visium · Squidpy · cell2location · Seurat spatial
+
+**Workflows:** Nextflow/nf-core · Docker · AWS EC2 · HPC (SLURM)
+
+**Stats & clinical:** survival analysis · regression modelling · GWAS QC · Stata · SPSS · REDCap
 
 ---
 
